@@ -178,7 +178,7 @@ api/config.py
 /build/
 
 # Web related
-lib/generated_plugin_registrant.dart
+**/lib/generated_plugin_registrant.dart
 
 # Symbolication related
 app.*.symbols
@@ -237,3 +237,4 @@ app.*.map.json
 # Windows
 **/windows/flutter/generated_plugin_registrant.*
 **/windows/flutter/generated_plugins.*
+**/windows/flutter/ephemeral/generated_config.*
